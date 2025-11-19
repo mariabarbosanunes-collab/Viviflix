@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonte DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <title>Melhores Filmes</title>
+
+    <style>
+        /* Geral */
+        body {
+            color: #222;
+            background: #f4f4f4;
+            margin: 0;
+            font-family: "DM Sans", sans-serif;
+            padding-bottom: 80px;
+        }
+
+        /* Cabeçalho */
+        header {
+            border-bottom: 4px solid goldenrod;
+            padding: 25px;
+            font-size: 34px;
+            font-weight: 700;
+            text-align: center;
+            background: #fff;
+            color: rgb(115, 4, 28);
+            letter-spacing: 2px;
+        }
+
+        /* Chamada principal */
+        .chamada {
+            background: linear-gradient(135deg, #006d6d, #009999);
+            color: white;
+            padding: 80px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            text-align: center;
+            border-bottom: 5px solid #004b4b;
+        }
+
+        .chamada-texto h1 {
+            font-size: 42px;
+            font-weight: 700;
+        }
+
+        .chamada-texto p {
+            font-size: 22px;
+            margin-top: -10px;
+            font-weight: 300;
+        }
+
+        /* Categorias */
+        .categoria {
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .categoria h2 {
+            background: black;
+            color: white;
+            padding: 10px 15px;
+            border-left: 5px solid goldenrod;
+            border-radius: 5px;
+            width: fit-content;
+            font-size: 26px;
+        }
+
+        /* Lista de vídeos */
+        .categoria-videos {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding-top: 20px;
+            scroll-snap-type: x mandatory;
+        }
+
+        .categoria-videos a {
+            scroll-snap-align: center;
+        }
+
+        /* Estilo das imagens */
+        .categoria-videos img {
+            height: 200px;
+            border-radius: 10px;
+            opacity: 0.5;
+            transition: 0.3s ease;
+        }
+
+        .categoria-videos img:hover {
+            opacity: 1;
+            transform: scale(1.06);
+            border: 3px solid goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>MELHORES FILMES</header>
+
+    <section class="chamada">
+        <div class="chamada-texto">
+            <h1>27 Dresses (2008) Trailer</h1>
+            <p>#27dresses</p>
+        </div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/J9DzAjOe7sY?si=0BTTcyo1_-5V_mAk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Categoria 1 -->
+    <section class="categoria"> 
+        <h2>Melhores filmes teen / romance</h2>
+        <div class="categoria-videos">
+            <a href="https://www.youtube.com/watch?v=9eJOE_s1ZaE">
+                <img src="https://img.youtube.com/vi/9eJOE_s1ZaE/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=EMzEmGfTuM4">
+                <img src="https://img.youtube.com/vi/EMzEmGfTuM4/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=N-Hua-wJzVc">
+                <img src="https://img.youtube.com/vi/N-Hua-wJzVc/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=8iAfIoFSNEo">
+                <img src="https://img.youtube.com/vi/8iAfIoFSNEo/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=8j0qMY-LeKM">
+                <img src="https://img.youtube.com/vi/8j0qMY-LeKM/maxresdefault.jpg" />
+            </a>
+        </div>
+    </section>
+
+    <!-- Categoria 2 -->
+    <section class="categoria"> 
+        <h2>Melhores comédias</h2>
+        <div class="categoria-videos">
+            <a href="https://www.youtube.com/watch?v=HKVve_VSz58">
+                <img src="https://img.youtube.com/vi/HKVve_VSz58/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=U4IVNvPu134">
+                <img src="https://img.youtube.com/vi/U4IVNvPu134/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=seoJIPLLWp0">
+                <img src="https://img.youtube.com/vi/seoJIPLLWp0/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=OzH9TovL6A8">
+                <img src="https://img.youtube.com/vi/OzH9TovL6A8/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=e3J29PNvIhY">
+                <img src="https://img.youtube.com/vi/e3J29PNvIhY/maxresdefault.jpg" />
+            </a>
+        </div>
+    </section>
+
+    <!-- Categoria 3 -->
+    <section class="categoria"> 
+        <h2>Melhores aventura / ação</h2>
+        <div class="categoria-videos">
+            <a href="https://www.youtube.com/watch?v=ql4epTOWdNg">
+                <img src="https://img.youtube.com/vi/ql4epTOWdNg/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=7HDfIssATE4">
+                <img src="https://img.youtube.com/vi/7HDfIssATE4/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=5JQuYpBZarc">
+                <img src="https://img.youtube.com/vi/5JQuYpBZarc/maxresdefault.jpg" />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=YKfeEKJBbU0">
+                <img src="https://img.youtube.com/vi/YKfeEKJBbU0/maxresdefault.jpg" />
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
